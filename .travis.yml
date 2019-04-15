@@ -1,9 +1,10 @@
-language: node.js
+language: node_js
 node_js:
   - lts/carbon
 
-
 jobs:
   include:
+    - stage: install
+      script: npm ci
     - stage: build
       script: npm run ci
