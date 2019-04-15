@@ -12,9 +12,11 @@
   },
   "main": "lib/index.js",
   "scripts": {
+    "lint": "tslint --project .",
     "build": "tsc",
     "build:dev": "tsc --watch",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "ci": "npm run lint && npm run build"
   },
   "devDependencies": {
     "@types/node": "~8.10.45",

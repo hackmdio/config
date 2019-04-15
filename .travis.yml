@@ -1,0 +1,9 @@
+language: node.js
+node_js:
+  - lts/carbon
+
+
+jobs:
+  include:
+    - stage: build
+      script: npm run ci
