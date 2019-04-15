@@ -1,4 +1,4 @@
-# @hackmd/config
+# @hackmd/config [![Build Status](https://travis-ci.org/hackmdio/config.svg?branch=master)](https://travis-ci.org/hackmdio/config)
 
 This project is a configuration management tool for HackMD.
 
